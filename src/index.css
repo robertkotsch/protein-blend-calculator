@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  /* Respect device safe areas (notch / home indicator) in standalone mode */
+  background-color: #f4f2ee;
+}
