@@ -1,5 +1,9 @@
 # Performance Blend Calculator (PWA)
 
+<p align="center">
+  <img src="public/social-preview.png" alt="Plant-Based Protein Blend Calculator — dial in your dose, see your blend composition, and track days of supply" width="640">
+</p>
+
 An installable, offline-capable Progressive Web App for calculating protein blend
 batch weights, daily dosing, and supply logistics.
 
