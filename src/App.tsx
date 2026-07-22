@@ -79,16 +79,16 @@ const App = () => {
   `;
 
   const ingredients: Ingredient[] = [
-    { name: 'Lupine protein (bio)', ratio: 18.03, color: '#E5D193', recommended: '35-45g', benefit: 'High in arginine for vascular health.', category: 'Protein' },
-    { name: 'Rice protein 82% (bio)', ratio: 18.03, color: '#F6F4EF', recommended: '35-45g', benefit: 'Hypoallergenic; provides methionine.', category: 'Protein' },
-    { name: 'Pea protein (bio)', ratio: 18.03, color: '#E3D6B0', recommended: '35-45g', benefit: 'Rich in Leucine for muscle synthesis.', category: 'Protein' },
-    { name: 'Hemp protein (bio)', ratio: 18.03, color: '#919881', recommended: '35-45g', benefit: 'Omega fatty acids support heart health.', category: 'Protein' },
-    { name: 'Fenugreek (sprouted)', ratio: 7.21, color: '#BCA27E', recommended: '3.0-5.0g', benefit: 'Supports testosterone and metabolism.', category: 'Performance' },
+    { name: 'Lupine protein', ratio: 18.03, color: '#E5D193', recommended: '35-45g', benefit: 'High in arginine for vascular health.', category: 'Protein' },
+    { name: 'Rice protein 82%', ratio: 18.03, color: '#F6F4EF', recommended: '35-45g', benefit: 'Hypoallergenic; provides methionine.', category: 'Protein' },
+    { name: 'Pea protein', ratio: 18.03, color: '#E3D6B0', recommended: '35-45g', benefit: 'Rich in Leucine for muscle synthesis.', category: 'Protein' },
+    { name: 'Hemp protein', ratio: 18.03, color: '#919881', recommended: '35-45g', benefit: 'Omega fatty acids support heart health.', category: 'Protein' },
+    { name: 'Fenugreek', ratio: 7.21, color: '#BCA27E', recommended: '3.0-5.0g', benefit: 'Supports testosterone and metabolism.', category: 'Performance' },
     { name: 'MSM', ratio: 4.51, color: '#FFFFFF', recommended: '2.5-4.5g', benefit: 'Sulfur for cartilage repair.', category: 'Joints' },
-    { name: 'Ashwagandha (bio)', ratio: 4.51, color: '#D2C5B3', recommended: '3.0-6.0g', benefit: 'Cortisol management and recovery.', category: 'Recovery' },
-    { name: 'Maca powder (bio)', ratio: 4.51, color: '#E0D1B8', recommended: '2.0-4.0g', benefit: 'Adaptogenic energy and stamina.', category: 'Performance' },
-    { name: 'Rosehip powder (bio)', ratio: 4.51, color: '#C78F3B', recommended: '3.0-5.0g', benefit: 'High Vitamin C and joint protection.', category: 'Joints' },
-    { name: 'Kelp powder (bio)', ratio: 0.9, color: '#5E5B37', recommended: '0.5-1.0g', benefit: 'Iodine for thyroid health.', category: 'Wellness' },
+    { name: 'Ashwagandha', ratio: 4.51, color: '#D2C5B3', recommended: '3.0-6.0g', benefit: 'Cortisol management and recovery.', category: 'Recovery' },
+    { name: 'Maca powder', ratio: 4.51, color: '#E0D1B8', recommended: '2.0-4.0g', benefit: 'Adaptogenic energy and stamina.', category: 'Performance' },
+    { name: 'Rosehip powder', ratio: 4.51, color: '#C78F3B', recommended: '3.0-5.0g', benefit: 'High Vitamin C and joint protection.', category: 'Joints' },
+    { name: 'Kelp powder', ratio: 0.28, color: '#5E5B37', recommended: '0.15-0.20g', benefit: 'Iodine for thyroid health.', category: 'Wellness' },
   ];
 
   const totalParts = ingredients.reduce((acc, curr) => acc + curr.ratio, 0);
@@ -129,7 +129,7 @@ const App = () => {
             <FlaskConical className="w-7 h-7 text-stone-400" />
             <h1 className="text-2xl font-black tracking-tight uppercase">Performance Blend</h1>
           </div>
-          <p className="text-[10px] font-bold tracking-[0.2em] opacity-60">ACTIVE PROFILE • 50Y MALE</p>
+          <p className="text-[10px] font-bold tracking-[0.2em] opacity-60">PLANT-BASED • {ingredients.length} ACTIVE COMPOUNDS</p>
         </div>
 
         {/* Batch Weight Section */}
