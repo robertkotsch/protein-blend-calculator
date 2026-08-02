@@ -88,6 +88,7 @@ const App = () => {
     { name: 'Ashwagandha', ratio: 4.51, color: '#D2C5B3', recommended: '3.0-6.0g', benefit: 'Cortisol management and recovery.', category: 'Recovery' },
     { name: 'Maca powder', ratio: 4.51, color: '#E0D1B8', recommended: '2.0-4.0g', benefit: 'Adaptogenic energy and stamina.', category: 'Performance' },
     { name: 'Rosehip powder', ratio: 4.51, color: '#C78F3B', recommended: '3.0-5.0g', benefit: 'High Vitamin C and joint protection.', category: 'Joints' },
+    { name: 'Magnesium citrate', ratio: 1.42, color: '#F7F7F2', recommended: '1.0-1.5g', benefit: 'Elemental magnesium for muscle function and reduced tiredness.', category: 'Recovery' },
     { name: 'Kelp powder', ratio: 0.28, color: '#5E5B37', recommended: '0.15-0.20g', benefit: 'Iodine for thyroid health.', category: 'Wellness' },
   ];
 
